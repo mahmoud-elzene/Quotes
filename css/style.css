@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    background-color: #B8860B;
+}
+.mahmod-price{
+    min-width: 200px;
+    min-height:100px;
+    max-width: 200px;
+    max-height: 100px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+    color: yellow;
+    line-height: 110px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/*  .name-1{
+    text-shadow: 2px 2px 10px 1px white ,-2px -2px 10px 1px white;
+}  */
+.card{
+    box-shadow: 2px 2px 10px 1px white ,-2px -2px 10px 1px white;
+}
+.titoo{
+    box-shadow: 2px 2px 10px 1px white ,-2px -2px 10px 1px white;
+}
+.mahmod-price:hover{
+    box-shadow: 2px 2px 10px 1px white ,-2px -2px 10px 1px white;
+}
+.logo{
+    border-radius: 50%;
+    box-shadow: 2px 2px 20px 5px white ,-2px -2px 20px 5px white;
+
+}
+.bttttt{
+    margin: 5px 48.5% 1px 47.5%;
+    font-size: 25px;
+    width: 80px;
+    height: 40px;
+
+    }
+.bttttt:hover{
+    box-shadow: 2px 2px 10px 1px white ,-2px -2px 10px 1px white;
+}
+.list{
+   
+    /* grid-gap: 20px 70px; */
+    display: flex;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3,30%) ;
+}
+.list li {
+    list-style: none;
+
+}
+.card-title{
+    cursor: pointer;
+}
